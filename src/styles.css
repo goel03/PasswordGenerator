@@ -1,0 +1,263 @@
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  /* *{
+    background-color: black;
+  } */
+  
+  .range {
+    position: absolute;
+    left: 82px;
+    top: 89px;
+    background-color: #24232b;
+    border-radius: 50px;
+  }
+  
+  .copy {
+    height: 20px;
+    width: 18px;
+    left: 835px;
+    top: 199px;
+    border-radius: 0px;
+    background-color: white;
+  }
+  
+  .copy2 {
+    position: absolute;
+    height: 20px;
+    width: 18px;
+    left: 425px;
+    top: 23px;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+  
+  .copy3 {
+    position: absolute;
+    height: 20px;
+    width: 18px;
+    left: 425px;
+    top: 23px;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+  
+  .copy4 {
+    position: absolute;
+    height: 20px;
+    width: 18px;
+    left: 425px;
+    top: 23px;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+  
+  button {
+    position: absolute;
+    width: 424px;
+    height: 59px;
+    left: 28px;
+    top: 390px;
+    background: #a4ffaf;
+  }
+  
+  button:hover {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .rect2 {
+    position: absolute;
+    width: 480px;
+    height: 469px;
+    left: 300px;
+    top: 266px;
+    background: #24232b;
+    border-radius: 10px;
+  }
+  
+  .rect1 {
+    border-radius: 10px;
+    position: absolute;
+    width: 480px;
+    height: 70px;
+    left: 300px;
+    top: 173px;
+    background: #24232b;
+  }
+  
+  .rect3 {
+    border-radius: 10px;
+    position: absolute;
+    width: 480px;
+    height: 70px;
+    left: 800px;
+    top: 273px;
+    background: #24232b;
+  }
+  
+  .rect4 {
+    border-radius: 10px;
+    position: absolute;
+    width: 480px;
+    height: 70px;
+    left: 800px;
+    top: 373px;
+    background: #24232b;
+  }
+  
+  .rect5 {
+    border-radius: 10px;
+    position: absolute;
+    width: 480px;
+    height: 70px;
+    left: 800px;
+    top: 473px;
+    background: #24232b;
+  }
+  .text {
+    position: absolute;
+    width: max-content;
+    height: 28px;
+    top: 19px;
+    left: 30px;
+    font-family: "Monospaceland";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    color: blanchedalmond;
+  }
+  .copy {
+    box-sizing: border-box;
+    position: absolute;
+    left: 85.23%;
+    right: 33.36%;
+    top: 30.87%;
+    bottom: 75.93%;
+    background: #24232b;
+    border: 4px solid #a6feb0;
+    cursor: pointer;
+  }
+  .char {
+    position: absolute;
+    width: 153px;
+    height: 30px;
+    left: 39px;
+    top: 18px;
+  
+    font-family: "Monospaceland";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    letter-spacing: 0.008em;
+    color: #ffffff;
+  }
+  .val {
+    position: absolute;
+    width: max-content;
+    height: 30px;
+    left: 400px;
+    font-family: "Monospaceland";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 36px;
+    letter-spacing: 0.008em;
+    color: #a4ffaf;
+  }
+  
+  .check {
+    display: flex;
+    position: absolute;
+    left: 30px;
+    top: 30%;
+  }
+  
+  .check1 {
+    display: flex;
+    position: absolute;
+    left: 30px;
+    top: 40%;
+  }
+  
+  .check2 {
+    display: flex;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+  }
+  
+  .check3 {
+    display: flex;
+    position: absolute;
+    left: 30px;
+    top: 60%;
+  }
+  
+  input[type="checkbox"] {
+    width: 30px;
+  }
+  
+  .one {
+    color: blanchedalmond;
+    background-color: #24232b;
+  }
+  
+  .strength {
+    position: absolute;
+    width: 421px;
+    height: 55px;
+    left: 30px;
+    top: 320px;
+    background: #18171f;
+  }
+  .Home_indicator__m2xFq {
+    position: absolute;
+    width: 5px;
+    height: 22px;
+    top: 15px;
+    left: 355px;
+    border: 2.1px solid #ffffff;
+  }
+  
+  .Home_indicator__m2xFq1 {
+    position: absolute;
+    width: 5px;
+    top: 15px;
+    height: 22px;
+    left: 370px;
+    border: 2.1px solid #ffffff;
+  }
+  
+  .Home_indicator__m2xFq2 {
+    position: absolute;
+    width: 5px;
+    height: 22px;
+    top: 15px;
+    left: 385px;
+    border: 2.1px solid #ffffff;
+  }
+  
+  .Home_indicator__m2xFq3 {
+    position: absolute;
+    width: 5px;
+    height: 22px;
+    top: 15px;
+    left: 400px;
+    border: 2.1px solid #ffffff;
+  }
+  
+  .Home_strengthLeft__d08w- {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    font-weight: bold;
+    background-color: #18171f;
+  }
+  
